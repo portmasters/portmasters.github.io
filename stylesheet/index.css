@@ -5,37 +5,7 @@ body{
 
 }
 
-.navbar{
-	 -webkit-transition: all .5s ease-in 3s;
-  transition: all .5s ease-in 3s;
-	
-}
 
-.navbar-brand,
-.navbar-nav li a {
-    line-height: 60px;
-    height: 60px;
-    padding-top: 0;
-	
-}
-
-.navbar {
-	box-shadow: 5px 1px 5px black;
-}
-.navbar li{
-	margin-right:60px;
-}
-.dropdown-menu li{
-	margin-right:0px;
-}
-.textHead{
-	float:left;
-	line-height:60px;
-	font-size:20px;
-	margin-left:4%;
-	opacity: 0.3;
-	color:white;
-}
 .welcomeSection{
 	position:relative;
 	width:100%;
