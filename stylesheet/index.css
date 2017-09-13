@@ -9,7 +9,6 @@ body{
 .welcomeSection{
 	position:relative;
 	width:100%;
-	min-width:300px;
 	height:1000px;
 	background-color:black;
 	color:white;
