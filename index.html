@@ -1,152 +1,295 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-	<title>Home</title>
-	
-	<meta charset="UTF-8">
-	<meta name="author" content="Albert Nguyen">
-	<meta name="description" content="My portfolio">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="stylesheet/index.css">
-	<link rel="stylesheet" href="stylesheet/style7.css">
-	<link rel="stylesheet" type="text/css" href="stylesheet/style_common.css" />
-	<link rel="stylesheet" type="text/css" href="stylesheet/template.css" />
-	
-	
-	
-	
-	
-	
-	
-	<script>
- $(function() {
-    $('.scroll-down').click (function() {
-      $('html, body').animate({scrollTop: $('.profileSection').offset().top }, 'slow');
-      return false;
-    });
-  });
-  
-   $(function() {
-    $('.scroll-up').click (function() {
-      $('html, body').animate({scrollTop: $('.welcomeSection').offset().top }, 'slow');
-      return false;
-    });
-  });
-  
-  var isMobile = false; //initiate as false
-// device detection
-if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) 
-    || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(navigator.userAgent.substr(0,4))) isMobile = true;
-  
-
-</script>
-</head>
-<body >
-
-	<nav class="navbar navbar-inverse navbar-fixed-top" >
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".mainNav">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a href="#" style="opacity: 1;" class="scroll-up navbar-brand">FOURDISTRICTS</a>
-			</div>
-			<div class="textHead hidden-sm hidden-xs hidden-md">
-			Creativity Innovate Your World
-			</div>
-			
-			<div class="collapse navbar-collapse mainNav">
-			<ul class="nav navbar-nav navbar-right ">
-				<li class="dropdown">
-					<a href="" class="dropdown-toggle" data-toggle="dropdown">Projects <span class="caret"></span> </a>
-					<ul class="dropdown-menu">
-						<li><a href="https://github.com/portmasters/my-project">GitHub</a></li>
-						<li><a href="">Other Websites</a></li>
-						<li><a href="">Wordpress</a></li>
-					</ul>
-				</li>
-				
-				
-				<li><a href="">About</a></li>
-				<li><a href="">Portfolio</a></li>
-				<li><a href="webpages/contactMe.html">Contact</a></li>
-			</ul>
-			</div>
-			
-		</div>
-	</nav>
-	<div class="wrapper">
-		<section class="welcomeSection">
-			<div class="welcomeBlock">
-			<h1>Welcome</h1>
-			<a href="#" class="hvr-sweep-to-top  hvr-pulse-grow scroll-down">Begin</a>
-			<h4 class="hidden-sm hidden-xs">Fourdistricts.com is under construction.</h4>
-			</div>
-		</section>
-		
-		<section class="profileSection">
-			<div><br></div>
-			<img src="images/albert.jpg" height="400" width="400" alt="picture of Albert" class="img-responsive img-circle profilePicture"/>
-			<br>
-			<br>
-			<h1> Albert Nguyen</h1>
-			<p> I'm a front-end developer, born & raised in Ontario,Toronto and I am in my third year at George Brown College for programming analyst. 
-			<br>In my free time I like to design websites and see what cool things I could implement to make it unique and stylish. <br>Interested in my
-				work? Feel free to contact me through the <a href="webpages/contactMe.html">contact page</a></p>
-	
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			</p>
-			<h3>Skills</h3>
-			-HTML5 
-			<br>-CSS3 
-			<br>-JAVASCRIPT 
-			<br>-PHP 
-			<br>-BOOTSTRAP
-		
-		</section>
-
-		
-		
-		
-		
-		
-	
-	</div>
-	
 <script>
+function myFunction(name) {
+    var x = document.getElementById(name);
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 
-if(isMobile)
-{
-   $("body").css("overflow", "visible");
-   $(".scroll-down").css("font-size", "15px");
-   $(".scroll-down").css("left", "0%");
-   $(".welcomeSection").css("height","750px");
-   $(".welcomeBlock h1").css("font-size","13vw");
-   
-
-   }
-   
-  
-
+}
 </script>
 
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Resume - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Albert
+            <span class="text-primary">Nguyen</span>
+          </h1>
+          <div class="subheading mb-5">Ontario, Toronto · (647) 709-2915 ·
+            <a href="mailto:name@email.com">Albert4industry@gmail.com</a>
+          </div>
+          <p class="mb-5">I am an aspiring software developer who is proficent in both frontend and backend level of work.
+            I am passionate about learning new things and writing beautiful code everyday. Feel to explore my website and learn more about me.</p>
+
+            <p class="mb-5">Mission Statement: I will continue to pave the way and share my expertise journey with the world until I am no longer able to.</p>
+
+             Need my resume? Download <a href="download/resume.docx" download> here </a> <br>
+             Need my cover letter? Download <a href="download/coverletter.docx" download> here </a>
+            <br><br>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.linkedin.com/in/albert-d-nguyen/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://github.com/portmasters">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Capstone</h3>
+              <div class="subheading mb-3"><a href="#">parkNow</a> - A react native app</div>
+              <p>In one my courses during my time at George Brown college I had the opportunity to develop a project for an entire year.
+              We had five group members working on the project, which later became four members as one of our member had to drop out of the program due to personal reasons.</p>
+              <p><a href="#">parkNow</a>, a react native app that help you find parking anywhere anytime with full detail about the parking location. In case you
+                don't know what react native is, it is a javascript framework for writing natively rendering mobile applications for iOS and Android.
+               <br><br>Documentations can be downloaded by the links below
+              </p>
+              <br>
+              <a href="download/T22-Project Vision" download> Project Vision </a> ·
+              <a href="download/T22-Project Plan.docx" download> Project Plan </a> ·
+              <a href="download/T22-Project Requirements.docx" download> Project Requirements</a> ·
+              <a href="download/T22-Requirements Analysis and Design.docx" download> Requirements Analysis and Design </a> ·
+
+              <a href="download/T22_ProjectStatusReport1.pdf" download> ProjectStatusReport 1</a> ·
+              <a href="download/T22_ProjectStatusReport2.pdf" download> ProjectStatusReport 2</a> ·
+              <a href="download/T22_ProjectStatusReport3.docx" download> ProjectStatusReport 3</a>
+
+              <br><br>
+              <h3 class="mb-0">Other School projects</h3>
+              <p>Downloads are linked below</p>
+              <a href="download/Data Structure.rar" download> Java - Search and Sort Program</a> <br>
+              <a href="download/SportPro.rar" download> Asp.net - Sports Pro Website</a> <br>
+              <a href="download/f6team4.rar" download> PHP - School Grade Website</a> <br>
+              <a href="download/Template.rar" download> HTML - Designing a Template</a> <br>
+              <a href="download/Science.rar" download> C# - Science Centre Terminal</a> <br>
+            </div>
+
+
+      </section>
+
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Web developer</h3>
+              <div class="subheading mb-3">Freelance</div>
+              <p>Being proactive and marketing yourself is key to having a successful career in freelance work. What I provide is my skills, creativity, and expertise on material design in creating
+                an interactive website. My work can be from adding small features on your existing website to producing and designing
+              fully fleshed out websites.  </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2017 - Present</span>
+            </div>
+          </div>
 
 
 
 
 
+        </div>
 
-</body>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">George Brown College </h3>
+              <div class="subheading mb-3">Ontario College Advanced Diploma</div>
+              <div>Computer Programmer Analyst</div>
+              <p>GPA: 3.42, <a target="_blank" href="Academic Transcipt.html">Academic Link</a></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2015 - April 2018</span>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <button onclick="myFunction('htmltoast')"><i class="devicons devicons-html5"></i></button>
+            </li>
+            <li class="list-inline-item">
+              <button onclick="myFunction('csstoast')"><i class="devicons devicons-css3"></i></button>
+            </li>
+            <li class="list-inline-item">
+              <button onclick="myFunction('javascripttoast')"><i class="devicons devicons-javascript"></i></button>
+            </li>
+            <li class="list-inline-item">
+              <button onclick="myFunction('bootstraptoast')"><i class="devicons devicons-bootstrap"></i></button>
+            </li>
+            <li class="list-inline-item">
+              <button onclick="myFunction('phptoast')"><i class="devicons devicon-php-plain"></i></<button>
+            </li>
+            <li class="list-inline-item">
+              <button onclick="myFunction('githubtoast')"><i class="devicons devicon-github-plain"></i></button>
+            </li>
+            <li class="list-inline-item">
+              <button onclick="myFunction('javatoast')"><i class="devicon-java-plain"></i></<button>
+            </li>
+          </ul>
+
+          <div id="htmltoast">HTML5</div>
+          <div id="csstoast">CSS3</div>
+          <div id="javascripttoast">Javascript</div>
+          <div id="bootstraptoast">Bootstrap</div>
+          <div id="phptoast">PHP</div>
+          <div id="githubtoast">Github</div>
+          <div id="javatoast">Java</div>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Google Material Design</li>
+            <li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile-First, Responsive Design</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Browser Testing &amp; Debugging</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Functional Teams</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am a novice snowboarder.
+            During the brief time of summer in Toronto, I enjoy mountain biking, swimming, and bouldering. If you happen to go to <b>rock oasis</b> we probably met, I am a pretty friendly guy.</p>
+          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and
+            I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
 </html>
